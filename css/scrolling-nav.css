@@ -39,22 +39,35 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    height: 150%; /*of the screen size so it varies*/
+    padding-top: 30px;
+    text-align: left;
     background: #eee;
 }
 
-.resume-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+.skills-section {
+    height: 150%;
+    padding-top: 30px;
+    text-align: left;
     background: #fff;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+.resume-section {
+    height: 150%;
+    padding-top: 30px;
+    text-align: left;
     background: #eee;
+}
+
+.contact-section {
+    height: 150%;
+    padding-top: 30px;
+    text-align: left;
+    background: #fff;
+}
+
+
+
+.social {
+  float:left;
 }
